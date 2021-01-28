@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap 4 (before all other CSS files) -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/assets/fontawesome/css/all.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Website title -->
+    <title>Diana Acero Allard</title>
+  </head>
+
+  <body>
+    <header id="diana">
+      <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container">
+          <!-- Burger button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarMenu"
+            aria-controls="navbarMenu"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Nav links -->
+          <div class="collapse navbar-collapse" id="navbarMenu">
+            <!-- Let navbar to occupy the entire available space with w-100 -->
+            <div class="navbar-nav nav-fill w-100">
+              <a class="nav-link active" href="#diana">Diana</a>
+              <a class="nav-link active" href="#about">About</a>
+              <a class="nav-link active" href="#experience"
+                >Profesional Experience</a
+              >
+              <a class="nav-link active" href="#projects">Current Projects</a>
+              <a class="nav-link active" href="#publications">Publications</a>
+              <a class="nav-link active" href="#community">Community</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="cover dark-bg d-flex flex-column justify-content-center">
+        <h1>Diana Acero Allard</h1>
+      </div>
+    </header>
+
+    <main>
+      <!-- Section About -->
+      <section id="about">
+        <div class="container">
+          <h1>About</h1>
+
+          <div class="row justify-content-around row-padding">
+            <div class="col-lg-8 col-md-6 col-padding">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Deserunt similique perspiciatis aliquam, nam possimus
+                consequatur facilis laudantium laborum ipsum ullam saepe
+                doloribus, ab iure est labore vel laboriosam vero recusandae.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Quisquam, rem. Accusantium sint repudiandae quas molestiae
+                dignissimos, animi consequatur inventore nam neque doloremque
+                reiciendis maiores autem doloribus eum corporis magni officiis!
+              </p>
+              <p style="text-align: right">
+                <a href="about.html">Read more about me...</a>
+              </p>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-padding">
+              <img class="img-about" src="/images/about.jpg" />
+            </div>
+          </div>
+
+          <div
+            class="row justify-content-around row-padding"
+            style="padding-right: 200px; padding-left: 200px"
+          >
+            <div class="col-sm-3 d-flex justify-content-center">
+              <a href="mailto:dianaceroa@gmail.com">
+                <i class="fas fa-envelope"></i>
+              </a>
+            </div>
+
+            <div class="col-sm-3 d-flex justify-content-center">
+              <a href="www.linkedin.com/in/dianaceroallard">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+
+            <div class="col-sm-3 d-flex justify-content-center">
+              <a href="https://github.com/dianaceroallard">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+
+            <div class="col-sm-3 d-flex justify-content-center">
+              <a href="">
+                <i class="fab fa-twitter" title="Twitter"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Professional experience -->
+      <section id="experience">
+        <div class="container">
+          <h1>Professional Experience</h1>
+
+          <p>
+            I am a Senior Geoscientist with more than 10 years of experience in
+            characterizing lithological and petrophysical properties.
+          </p>
+          <p>
+            My professional objective is to directly contribute to the growth of
+            safe global sustainable energy.
+          </p>
+
+          <div class="row justify-content-around">
+            <div class="col-lg-4 col-padding">
+              <h2>Core Analysis</h2>
+              <img src="images/core.svg" style="width: 100%" />
+            </div>
+
+            <div class="col-lg-4 col-padding">
+              <h2>Well-logging</h2>
+              <img src="images/well-logging.svg" style="width: 100%" />
+            </div>
+
+            <div class="col-lg-4 col-padding">
+              <h2>Dada Analysis</h2>
+              <img src="images/data.svg" style="width: 100%" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Current Project -->
+      <section id="projects">
+        <div class="container">
+          <h1>Current Projects</h1>
+
+          <p>
+            I am increasing knowledge and expertise in geothermal
+            characterization using previous O&G experience.
+          </p>
+
+          <div class="row justify-content-around">
+            <div class="col-ms-4 col-padding">
+              <div class="card">
+                <img class="card-img-top" src="images/project-1.svg" />
+                <div class="card-body">
+                  <h3 class="card-title">
+                    Using legacy data from oil and gas wells and applying
+                    machine learning methods for geothermal assessment
+                  </h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-ms-4 col-padding">
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="images/project-2.svg"
+                  style="height: 250px"
+                />
+                <div class="card-body">
+                  <h3 class="card-title">
+                    Characterization workflows for geothermal reservoirs
+                  </h3>
+                  <p class="card-text">
+                    Review of characterization workflow for geothermal
+                    reservoirs using high resolution cuttings analysis.
+                    <i> Acero-Allard D. & Khakimov, S. 2021 </i>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Publications -->
+      <section id="publications">
+        <div class="container">
+          <h1>Publications</h1>
+
+          <div class="row row-padding">
+            <div class="col-md-2 year-publi col-padding">2019</div>
+            <div class="col">
+              <p class="title-publi">
+                Confocal laser scanning microscopy and automated petrographic
+                image analysis in different rock types: Two- dimensional images
+                capillary pressure curves estimation and three-dimensional
+                porosity reconstruction.
+              </p>
+              <p>
+                M. A. Caja, J. L. Pérez-Jiménez, M. F. León, and D. Acero-
+                Allard.
+                <i> AAPG Bulletin, V. 103, No. 8, P. 1963-1978. </i>
+              </p>
+            </div>
+          </div>
+
+          <div class="row row-padding">
+            <div class="col-md-2 year-publi col-padding">2015</div>
+            <div class="col">
+              <p class="title-publi">
+                A Multi-Disciplinary Approach to Characterize Microporosity
+                Impact on Arab D Reservoir, a Case Study from the Bul Hanine
+                Field, Qatar.
+              </p>
+              <p>
+                Al-Jaaidi, O. S.; George, B. K.; Abousrafa, E.; De Almeida
+                Netto, S. L.; Al-Ali, M. A.; Bliefnick, D.; Reeder, S. L.; Boyd,
+                A.; Shoman, A. M.; Fotoh, A.; Matter, W. S.; Acero-Allard, D.;
+                Zhao, W.; Nasr, R.; McCormick, D. S.
+                <i>International Petroleum Technology Conference.</i>
+              </p>
+            </div>
+          </div>
+
+          <div class="row eow-padding">
+            <div class="col-md-2 year-publi col-padding">2014</div>
+            <div class="col">
+              <p class="title-publi">
+                Experimental Study of the Effects of Wettability and Fluid
+                Saturation on Nuclear Magnetic Resonance and Dielectric
+                Measurements in Limestone.
+              </p>
+              <p>
+                Venkataramanan, L. ; Hurlimann, M. D. ; Tarvin, J. A. ; Fellah,
+                K. ; Acero-Allard, D. ; Seleznev, N. V.
+                <i>Petrophysics.</i>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Community Involvement -->
+      <section id="community">
+        <div class="container">
+          <h1>Community Involvement</h1>
+
+          <p>Programs aim to empower underrepresented scientists.</p>
+
+          <div class="row justify-content-around">
+            <div class="col col-padding d-flex justify-content-center">
+              <div class="card" style="width: 150px">
+                <a href="https://geolatinas.weebly.com/">
+                  <img class="card-img-top" src="images/geolatinas.jpg" />
+                </a>
+              </div>
+            </div>
+
+            <div class="col col-padding d-flex justify-content-center">
+              <div class="card" style="width: 150px">
+                <a href="https://womeningeothermal.org/">
+                  <img class="card-img-top" src="images/wing.jpg" />
+                </a>
+              </div>
+            </div>
+
+            <div class="col col-padding d-flex justify-content-center">
+              <div class="card" style="width: 150px">
+                <a href="https://www.womenwhocode.com/python">
+                  <img class="card-img-top" src="images/wwc.jpg" />
+                </a>
+              </div>
+            </div>
+
+            <div class="col col-padding d-flex justify-content-center">
+              <div class="card" style="width: 150px">
+                <a href="">
+                  <img class="card-img-top" src="images/denver.jpg" />
+                </a>
+              </div>
+            </div>
+
+            <div class="col col-padding d-flex justify-content-center">
+              <div class="card" style="width: 150px">
+                <a href="https://softwareunderground.org/">
+                  <img class="card-img-top" src="images/swung.jpg" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>
+          Source code available in
+          <a href="https://github.com/user/repo">github.com/user/repo</a>.
+        </p>
+        <p>
+          This work is licensed under a
+          <a href="http://creativecommons.org/licenses/by/4.0/"
+            >Creative Commons Attribution 4.0 International License</a
+          >.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

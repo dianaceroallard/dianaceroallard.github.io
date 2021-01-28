@@ -1,0 +1,234 @@
+html {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 1.8em;
+  background-color: #e4efe7;
+  color: #3d7e82;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  color: #006976;
+  line-height: 1.8em;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 50px;
+  border-bottom: 3px solid #006976;
+  padding-bottom: 30px;
+  padding-top: 100px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+h2 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+h3 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: #3d7e82;
+  font-weight: 500;
+}
+
+a:hover {
+  opacity: 0.5;
+  color: #3d7e82;
+}
+
+ul {
+  list-style: none;
+}
+
+.fas,
+.fab,
+.ia {
+  color: #019488;
+  padding-right: 10px;
+}
+
+.col-padding {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.row-padding {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Header and navbar */
+/* ----------------- */
+header {
+  height: 100vh;
+}
+
+nav {
+  background-color: #a8dcc5;
+  line-height: 1.5em;
+  font-size: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: #006976;
+  font-weight: 600;
+}
+
+.cover {
+  height: 90%;
+  max-height: 90vh;
+  background-image: url("images/cover.jpg");
+  background-size: cover;
+  border: 2px solid #a8dcc5;
+  box-shadow: 0 8px 8px 0 #a8dcc5, 0 8px 22px 0 #a8dcc5;
+}
+
+.cover h1 {
+  text-shadow: 2px 3px 5px black;
+  color: #e4efe7;
+  border-bottom: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* Change style of header on mid size displays */
+@media (max-width: 767.98px) {
+  nav ul {
+    padding-top: 0px;
+  }
+
+  nav li {
+    padding: 5px;
+  }
+
+  .nav-container {
+    margin: 0px;
+  }
+
+  .cover img {
+    max-width: 400px;
+    width: 40%;
+  }
+
+  .cover h1 {
+    font-weight: normal;
+    font-size: 2.5em;
+  }
+}
+
+/* Picture style for About section*/
+.img-about {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+/* Style for the cards */
+.card {
+  box-shadow: 0 8px 8px 0 #a8dcc5, 0 8px 22px 0 #a8dcc5;
+  width: 100%;
+  max-width: 400px;
+}
+
+.card p {
+  font-size: 20px;
+}
+
+/* Publication and experience styles */
+.year-publi {
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.title-publi {
+  font-weight: 500;
+}
+/* Education style */
+.title {
+  text-align: left;
+}
+
+/* Contacts style */
+.icon {
+  font-size: 40px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+}
+
+/* Change style of title on small size displays */
+@media (max-width: 400px) {
+  h1,
+  h2,
+  h3 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    padding-bottom: 15px;
+    padding-top: 50px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    color: #006976;
+    line-height: 1.8em;
+  }
+
+  h1 {
+    font-weight: 600;
+    border-bottom: 3px solid #006976;
+  }
+
+  .icon {
+    font-size: 25px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #3d7e82;
+    font-weight: 400;
+  }
+}
+
+/* Footer */
+/* ------ */
+
+footer {
+  text-align: center;
+  color: #006976;
+  background-color: #a8dcc5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 150px;
+}
+
+footer p {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-size: 20px;
+  /* line-height: 1.4em; */
+}
+
+footer a {
+  color: #006976;
+}
