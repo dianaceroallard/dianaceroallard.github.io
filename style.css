@@ -156,7 +156,8 @@ nav {
 .card {
   box-shadow: 0 8px 8px 0 #a8dcc5, 0 8px 22px 0 #a8dcc5;
   width: 100%;
-  max-width: 400px;
+  max-width: 300px;
+  vertical-align: middle;
 }
 
 .card p {
