@@ -157,19 +157,10 @@ nav {
   font-size: 20px;
 }
 
-/* Publication and experience styles */
-.year-publi {
-  font-weight: 400;
-  font-size: 30px;
-}
-
-.title-publi {
-  font-weight: 500;
-}
 /* Education style */
-.title {
+/* .title {
   text-align: left;
-}
+} */
 
 /* Contacts style */
 .icon {
@@ -182,7 +173,8 @@ nav {
 @media (max-width: 400px) {
   h1,
   h2,
-  h3 {
+  h3,
+  h4 {
     text-align: center;
     font-weight: 500;
     font-size: 30px;
